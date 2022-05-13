@@ -55,7 +55,8 @@ import { useWeb3React } from '@web3-react/core';
 const useStyles = makeStyles(styles);
 
 const wallets = ['MetaMask', 'Wallet Connect'];
-const netlists = ['BOBA', 'BOBA Testnet'];
+const netlists = ['NEON'];
+// const netlists = ['NEON', 'remote proxy — solana devnet'];
 
 const usedlgStyles = makeStyles({
   avatar: {
@@ -173,7 +174,7 @@ function NetSelect(props) {
     } else if (value === 'Bsc') {
       setNet(1);
       console.log(value);
-    } else if (value === 'BOBA') {
+    } else if (value === 'NEON') {
       setNet(2);
       console.log(value);
     }
@@ -197,7 +198,7 @@ function NetSelect(props) {
         {netlists.map((netitem) => (
           <ListItem button onClick={() => handleListItemClick(netitem)} key={netitem}>
             <ListItemAvatar>
-              <img src={netitem == 'BOBA' ? EthereumImg : imageGet(netitem)} alt="logo" style={{ width: '45px' }} />
+              <img src={netitem == 'NEON' ? EthereumImg : imageGet(netitem)} alt="logo" style={{ width: '45px' }} />
             </ListItemAvatar>
             <ListItemText primary={netitem} />
           </ListItem>
