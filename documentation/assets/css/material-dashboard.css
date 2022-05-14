@@ -1771,7 +1771,7 @@ fieldset[disabled] .navbar .navbar-nav > li > a.btn.btn-danger.active {
 .open > .navbar .navbar-nav > li > a.btn.btn-rose.dropdown-toggle,
 .open > .navbar .navbar-nav > li > a.btn.btn-rose.dropdown-toggle:focus,
 .open > .navbar .navbar-nav > li > a.btn.btn-rose.dropdown-toggle:hover {
-  background-color: #7cddc0;
+  background-color: #FF545D;
   color: #ffffff;
   font-size: 15px;
   width: 180px;

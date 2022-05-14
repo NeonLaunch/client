@@ -442,9 +442,9 @@ body {
   top: 0;
   content: "";
 }
-.header-filter::before {
+/* .header-filter::before {
   background-color: rgba(0, 0, 0, 0.5);
-}
+} */
 .header-filter .container {
   z-index: 2;
   position: relative;
@@ -455,7 +455,7 @@ body {
   font-weight: 700;
   font-family: "Roboto Slab", "Times New Roman", serif;
   line-height: 1.15em;
-  color: #fff;
+  color: #FF545D;
 }
 
 .section {
