@@ -161,6 +161,10 @@ export default function CreateTokenMain() {
       setCoin('BNB');
       managecontractAddr = CREATE_TOKEN_MANAGE_ADDRESS.bsc;
     }
+    else if (library._network.chainId === 245022926) {
+      setCoin('NEON');
+      managecontractAddr = CREATE_TOKEN_MANAGE_ADDRESS.neon;
+    }
 
     if (account !== undefined) {
       // getFee();
@@ -188,7 +192,11 @@ export default function CreateTokenMain() {
     } else if (library._network.chainId === 97) {
       setCoin('BNB');
       managecontractAddr = CREATE_TOKEN_MANAGE_ADDRESS.bsc;
+    } else if (library._network.chainId === 245022926) {
+      setCoin('NEON');
+      managecontractAddr = CREATE_TOKEN_MANAGE_ADDRESS.neon;
     }
+    console.log("Work",managecontractAddr)
 
     if (!account) {
       ErrorDlgShow(true, 'Wallet is unconnected');

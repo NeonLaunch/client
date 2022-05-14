@@ -202,6 +202,10 @@ export default function CreateTokenManage() {
       setCoin('BNB');
       managecontractAddr = CREATE_TOKEN_MANAGE_ADDRESS.bsc;
     }
+    else if (library._network.chainId === 245022926) {
+      setCoin('NEON');
+      managecontractAddr = CREATE_TOKEN_MANAGE_ADDRESS.neon;
+    }
 
     getInfo();    
   }, [account, library])
@@ -221,7 +225,11 @@ export default function CreateTokenManage() {
       setCoin('BNB');
       managecontractAddr = CREATE_TOKEN_MANAGE_ADDRESS.bsc;
     }
-
+    else if (library._network.chainId === 245022926) {
+      setCoin('NEON');
+      managecontractAddr = CREATE_TOKEN_MANAGE_ADDRESS.neon;
+    }
+    
     getInfo();
 
   },[])
