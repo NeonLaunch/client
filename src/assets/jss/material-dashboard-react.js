@@ -49,11 +49,11 @@ const defaultFont = {
 };
 
 const primaryColor = ['#000', '#000', '#000', '#000'];
-const warningColor = ['#CCFF00', '#000', '#000', '#000'];
-const dangerColor = ['#CCFF00', '#CCFF00', '#CCFF00', '#CCFF00'];
-const successColor = ['#4caf50', '#66bb6a', '#43a047', '#5cb860'];
-const infoColor = ['#CCFF00', '#CCFF00', '#CCFF00', '#CCFF00'];
-const roseColor = ['#CCFF00', '#CCFF00', '#CCFF00', '#CCFF00'];
+const warningColor = ['#FF545D', '#000', '#000', '#000'];
+const dangerColor = ['#FF545D', '#FF545D', '#FF545D', '#FF545D'];
+const successColor = ['#FF545D', '#FF545D', '#FF545D', '#FF545D'];
+const infoColor = ['#FF545D', '#FF545D', '#FF545D', '#FF545D'];
+const roseColor = ['#FF545D', '#FF545D', '#FF545D', '#FF545D  '];
 
 const grayColor = [
   '#fff',
@@ -69,9 +69,9 @@ const grayColor = [
   '#eee',
   '#e7e7e7',
 ];
-const blackColor = '#fff';
-const whiteColor = '#000';
-const mygred = '#CCFF00';
+const blackColor = '#000';
+const whiteColor = '#fff';
+const mygred = '#FF545D';
 
 const boxShadow = {
   boxShadow:
